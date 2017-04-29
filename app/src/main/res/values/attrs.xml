@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorView">
+        <attr name="radius" format="dimension|reference" />
+        <attr name="spacing" format="dimension|reference"  />
+        <attr name="selected_color" format="color|reference" />
+        <attr name="unselected_color" format="color|reference" />
+        <attr name="animation_duration" format="integer|reference" />
+        <!--<attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>-->
+    </declare-styleable>
+
+
+    <declare-styleable name="SnakeIndicatorView">
+        <attr name="sn_radius" format="dimension|reference" />
+        <attr name="sn_spacing" format="dimension|reference"  />
+        <attr name="sn_selected_color" format="color|reference" />
+        <attr name="sn_unselected_color" format="color|reference" />
+        <attr name="sn_head_animation_duration" format="integer|reference" />
+        <attr name="sn_tail_animation_duration" format="integer|reference" />
+        <!--<attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>-->
+    </declare-styleable>
+</resources>

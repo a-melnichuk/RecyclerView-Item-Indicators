@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.alexmelnichuk.indicator.indicator.IndicatorView
+        app:spacing="4dp"
+        app:radius="4dp"
+        app:animation_duration="200"
+        app:selected_color="#f00"
+        android:layout_marginTop="128dp"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <com.example.alexmelnichuk.indicator.indicator.SnakeIndicatorView
+        app:sn_spacing="4dp"
+        app:sn_radius="4dp"
+        app:sn_head_animation_duration="200"
+        app:sn_tail_animation_duration="200"
+        app:sn_selected_color="#f00"
+        android:layout_marginTop="144dp"
+        android:id="@+id/slimy_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:clipToPadding="false" />
+
+</FrameLayout>
