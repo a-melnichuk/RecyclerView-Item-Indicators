@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public int getItemCount() {
-                return 9;
+                return 6;
             }
         });
         recyclerView.post(new Runnable() {

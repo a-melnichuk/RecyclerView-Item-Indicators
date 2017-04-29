@@ -117,11 +117,9 @@ public class SnakeIndicatorView extends View {
     }
 
     public void animate(int position) {
-        if (position == currPosition)
-            return;
         if (animating)
             nextPosition = position;
-        else
+        else if (position != currPosition)
             doAnim(position);
     }
 
